@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lending page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ab4164fb02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-----HEADER SECTION---->
+    <section class="header" id="header">
+        <nav class="navbar-one">
+        <div class="left">
+            <ul>
+                <li><i class="fa-brands fa-square-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+            </ul>
+        </div>
+            <div class="right">
+                <ul>
+                    <li class="email"><i class="fa-solid fa-envelope"></i><span>abc123@gmail.com</span></li>
+                    <li class="call"><i class="fa-solid fa-phone"></i><span>+91 1234567890</span></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar-two">
+            <div class="logo"> <h1 class="">LANDING PAGE</h1> </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#About us">About Us</a></li>
+                    <li><a href="#Survices">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+<div class="text-box">
+    <h2> WE ARE CREAVITE</h2>
+    <h1> DIGITAL MARKETING AGENCY</h1>
+    <p>We are passionate about learing new tachnologies</p>
+    <a href="" class="hero-btn">Read More</a>
+    <a href="" class="hero-btn">Book an appointment</a>
+</div>       
+    </section>
+
+<!----Features---->
+    <section>
+        <div class="row" id="Features">
+            <div class="fetures-col">
+                <h3>Achivement</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="fetures-col">
+                <h3>Professional support</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="fetures-col">
+                <h3>24/7 support</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+    </section>
+
+<!----About us---->
+<section>
+    <div class="about-us" id="About us">
+        <h1> ABOUT US</h1>
+        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> 
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </br>
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+        <a href="" class="hero-btn">Read More</a>
+    </div>
+     </section>
+     
+<!----Survices---->
+    <section class="Services" id="Survices">
+        <h1>OUR SERVICES</h1>
+        <div class="row">
+            <div class="Services-col">
+                <img src="IMAGES/market.jpg">
+                <h3> Market Analysis</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="Services-col">
+                <img src="IMAGES/seo.webp">
+                <h3> Keyword Research</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="Services-col">
+                <img src="IMAGES/user.jpg">
+                <h3> User Experiance</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </section> 
+    
+    <!-----script for manu----->
+    <script>
+        var navLink = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+</body>
+</html>
